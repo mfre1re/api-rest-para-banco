@@ -19,14 +19,14 @@ Para execução da API é importante que tenha o Node.js instalado.
    *npm start* (ou *npm run dev* com a instalação da dependência nodemon)
    ### O servidor estará disponível em http://localhost:3000
 
-## 5 .Rotas Disponíveis
-  GET /contas: Lista todas as contas bancárias.
-  POST /contas: Cria uma nova conta bancária.
-  PUT /contas/:numeroConta/usuario: Atualiza os dados do usuário de uma conta.
-  DELETE /contas/:numeroConta: Exclui uma conta bancária.
-  POST /transacoes/depositar: Realiza um depósito em uma conta.
-  POST /transacoes/sacar: Realiza um saque em uma conta.
-  POST /transacoes/transferir: Realiza uma transferência entre contas.
-  GET /contas/saldo: Consulta o saldo de uma conta.
-  GET /contas/extrato: Consulta o extrato de transações de uma conta.   
+## 5. Rotas Disponíveis:
+  - GET /contas: Lista todas as contas bancárias
+  - POST /contas: Cria uma nova conta bancária
+  - PUT /contas/:numeroConta/usuario: Atualiza os dados do usuário de uma conta
+  - DELETE /contas/:numeroConta: Exclui uma conta bancária
+  - POST /transacoes/depositar: Realiza um depósito em uma conta
+  - POST /transacoes/sacar: Realiza um saque em uma conta
+  - POST /transacoes/transferir: Realiza uma transferência entre contas
+  - GET /contas/saldo: Consulta o saldo de uma conta
+  - GET /contas/extrato: Consulta o extrato de transações de uma conta.  
    
