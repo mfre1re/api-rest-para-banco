@@ -5,7 +5,7 @@ Este é um mini projeto de API Rest para um sistema bancário simples, desenvolv
 Para execução da API é importante que tenha o Node.js instalado.
 
 ## 1. Clonar o repositório:
-   git clone
+   git clone git@github.com:mfre1re/api-rest-para-banco.git
 
 ## 2. Instale as dependências:
    npm install
@@ -17,7 +17,8 @@ Para execução da API é importante que tenha o Node.js instalado.
 
 ## 4. Inicie o servidor:
    *npm start* (ou *npm run dev* com a instalação da dependência nodemon)
-   ### O servidor estará disponível em http://localhost:3000
+   ### O servidor estará disponível em http://localhost:3000 (para melhor realização de testes das requisições HTTP da API recomendo a utilização do Insominia)
+   
 
 ## 5. Rotas Disponíveis:
   - GET /contas: Lista todas as contas bancárias
@@ -30,3 +31,7 @@ Para execução da API é importante que tenha o Node.js instalado.
   - GET /contas/saldo: Consulta o saldo de uma conta
   - GET /contas/extrato: Consulta o extrato de transações de uma conta.  
    
+## 6. Documentações:
+   - date-fns: https://date-fns.org/docs/Getting-Started
+   - express: https://expressjs.com/en/starter/installing.html
+   - nodemon: https://www.npmjs.com/package/nodemon
